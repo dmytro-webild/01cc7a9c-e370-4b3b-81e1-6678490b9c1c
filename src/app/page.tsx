@@ -33,12 +33,12 @@ export default function LandingPage() {
       navItems={[
         { name: "Home", id: "#hero" },
         { name: "About", id: "#about" },
-        { name: "Inventory", id: "#inventory" },
+        { name: "Menu", id: "#inventory" },
         { name: "Contact", id: "#contact" },
       ]}
-      brandName="Sri Hari Cars"
+      brandName="D K CAFE"
       button={{
-        text: "View Inventory",        href: "#inventory"}}
+        text: "View Menu",        href: "#inventory"}}
     />
   </div>
 
@@ -46,18 +46,18 @@ export default function LandingPage() {
       <HeroBillboardGallery
       background={{
         variant: "gradient-bars"}}
-      title="Drive Your Dream Home"
-      description="Sri Hari Cars brings you a curated selection of premium pre-owned vehicles. Reliability, quality, and service in every drive."
+      title="Brewed to Perfection"
+      description="Discover the finest coffee blends and artisanal snacks at D K CAFE. Your cozy corner for great taste and warm memories."
       buttons={[
         {
-          text: "Explore Inventory",          href: "#inventory"},
+          text: "Explore Menu",          href: "#inventory"},
       ]}
       mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=1", imageAlt: "luxury car dealership interior showroom" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=1", imageAlt: "family car parked on street" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=1", imageAlt: "sporty hatchback car fast" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0mrpqb", imageAlt: "professional car inspection service" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rwqra8", imageAlt: "luxury interior car leather seats" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=1", imageAlt: "cozy coffee shop interior" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=1", imageAlt: "fresh roasted coffee beans" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=1", imageAlt: "latte art on a cup of coffee" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0mrpqb", imageAlt: "fresh baked pastries" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rwqra8", imageAlt: "coffee shop atmosphere" },
       ]}
       mediaAnimation="blur-reveal"
     />
@@ -66,10 +66,10 @@ export default function LandingPage() {
   <div id="about" data-section="about">
       <MediaAbout
       useInvertedBackground={false}
-      title="Decades of Trust"
-      description="At Sri Hari Cars, we don't just sell cars; we build relationships. Every vehicle undergoes a rigorous multi-point inspection to ensure you get nothing but the best performance and peace of mind."
+      title="Crafted with Passion"
+      description="D K CAFE is dedicated to sourcing the highest quality beans and preparing every cup with meticulous care. Whether you are grabbing a quick espresso or meeting friends, we welcome you to our space."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2wq46i"
-      imageAlt="car dealership showroom interior"
+      imageAlt="cafe owner pouring coffee"
     />
   </div>
 
@@ -80,14 +80,14 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Certified Quality",          description: "Every car is inspected by expert technicians to guarantee peak performance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=2",          imageAlt: "Certified inspection"},
+          title: "Artisanal Coffee",          description: "Hand-picked beans, roasted in small batches for optimal freshness.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=2",          imageAlt: "fresh coffee"},
         {
-          title: "Fair Pricing",          description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=2",          imageAlt: "Fair pricing"},
+          title: "Cozy Atmosphere",          description: "Your comfortable neighborhood spot to relax, work, or catch up.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=2",          imageAlt: "cozy seating"},
         {
-          title: "Easy Finance",          description: "Get quick loan approvals and flexible repayment options through our banking partners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=2",          imageAlt: "Easy finance"},
+          title: "Daily Freshness",          description: "Baked goods prepared fresh in-house every single morning.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=2",          imageAlt: "baked goods"},
       ]}
-      title="Why Choose Sri Hari?"
-      description="Experience a transparent, hassle-free car buying journey."
+      title="Why D K CAFE?"
+      description="Every sip, every bite, a story of passion."
     />
   </div>
 
@@ -99,23 +99,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "1",          brand: "Toyota",          name: "Fortuner",          price: "₹32,50,000",          rating: 5,
-          reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6kkkso"},
+          id: "1",          brand: "Espresso",          name: "Signature Blend",          price: "₹150",          rating: 5,
+          reviewCount: "120",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6kkkso"},
         {
-          id: "2",          brand: "Hyundai",          name: "Creta",          price: "₹14,20,000",          rating: 5,
-          reviewCount: "8",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=54m74y"},
+          id: "2",          brand: "Latte",          name: "Vanilla Infused",          price: "₹220",          rating: 5,
+          reviewCount: "85",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=54m74y"},
         {
-          id: "3",          brand: "Maruti",          name: "Swift",          price: "₹6,50,000",          rating: 4,
-          reviewCount: "15",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=udyz69"},
+          id: "3",          brand: "Pastry",          name: "Butter Croissant",          price: "₹180",          rating: 4,
+          reviewCount: "150",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=udyz69"},
         {
-          id: "4",          brand: "Kia",          name: "Seltos",          price: "₹15,80,000",          rating: 5,
-          reviewCount: "10",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nsqsal"},
+          id: "4",          brand: "Cold Brew",          name: "Nitro Coffee",          price: "₹250",          rating: 5,
+          reviewCount: "90",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nsqsal"},
         {
-          id: "5",          brand: "Mahindra",          name: "XUV700",          price: "₹22,10,000",          rating: 5,
-          reviewCount: "22",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vygryv"},
+          id: "5",          brand: "Snack",          name: "Dark Chocolate Cookie",          price: "₹120",          rating: 5,
+          reviewCount: "210",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vygryv"},
       ]}
-      title="Featured Collection"
-      description="Our current selection of premium, pre-inspected vehicles."
+      title="Popular Menu"
+      description="Our customer favorites and daily staples."
     />
   </div>
 
@@ -126,14 +126,14 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "1",          value: "1000+",          title: "Cars Sold",          description: "Happy families on the road",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fbza7l"},
+          id: "1",          value: "5000+",          title: "Cups Brewed",          description: "Serving smiles daily",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fbza7l"},
         {
-          id: "2",          value: "20+",          title: "Years Experience",          description: "Serving the automotive community",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z2qpfe"},
+          id: "2",          value: "15",          title: "Years Local",          description: "Part of your morning routine",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z2qpfe"},
         {
-          id: "3",          value: "500+",          title: "Happy Clients",          description: "Reliable partnerships and trust",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=arl167"},
+          id: "3",          value: "100%",          title: "Ethical Beans",          description: "Sourced with respect",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=arl167"},
       ]}
-      title="Our Impact"
-      description="Delivering excellence one vehicle at a time."
+      title="By The Numbers"
+      description="Our journey in brewing quality."
     />
   </div>
 
@@ -143,37 +143,37 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",          title: "Do you provide car warranties?",          content: "Yes, we offer comprehensive warranties on select certified pre-owned vehicles."},
+          id: "1",          title: "Do you offer vegan options?",          content: "Yes! We have several plant-based milks and vegan pastries available."},
         {
-          id: "2",          title: "Can I test drive a vehicle?",          content: "Absolutely! We encourage you to schedule a test drive at our showroom."},
+          id: "2",          title: "Can I work from your cafe?",          content: "Definitely, we have free high-speed WiFi and comfortable seating."},
         {
-          id: "3",          title: "How is the valuation process?",          content: "Our experts evaluate vehicles based on age, mileage, condition, and market demand to offer you the best price."},
+          id: "3",          title: "Do you provide delivery?",          content: "Yes, we are listed on all major food delivery platforms."},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11helg"
-      title="Common Questions"
-      description="Answers to your queries about our process and vehicles."
+      title="Cafe FAQs"
+      description="Got a question? We have answers."
       faqsAnimation="slide-up"
-      imageAlt="customer asking car questions"
+      imageAlt="cafe customer"
     />
   </div>
 
   <div id="testimonials" data-section="testimonials">
       <TestimonialCardFifteen
       useInvertedBackground={true}
-      testimonial="The service at Sri Hari Cars was impeccable. They found me the perfect car within my budget, and the documentation was flawless. Highly recommended!"
+      testimonial="The coffee here is simply the best in town. Every time I walk into D K CAFE, it feels like home. Their croissants are out of this world!"
       rating={5}
-      author="Ankit R."
+      author="Priya K."
       avatars={[
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tnu6by",          alt: "happy customer portrait car"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tnu6by",          alt: "customer"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g5bl6c",          alt: "happy family car purchase"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g5bl6c",          alt: "customer"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gk34q2",          alt: "happy young professional car"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gk34q2",          alt: "customer"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=m7j6uo",          alt: "happy couple car purchase"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=m7j6uo",          alt: "customer"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=06b0fu",          alt: "happy senior driver car"},
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=06b0fu",          alt: "customer"},
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -183,8 +183,8 @@ export default function LandingPage() {
   <div id="contact" data-section="contact">
       <ContactSplitForm
       useInvertedBackground={false}
-      title="Get in Touch"
-      description="Ready to book your test drive or sell your vehicle? Reach out to us."
+      title="Visit Us"
+      description="Swing by, say hello, or plan your next event with us. We would love to serve you!"
       inputs={[
         {
           name: "name",          type: "text",          placeholder: "Your Name",          required: true,
@@ -192,27 +192,24 @@ export default function LandingPage() {
         {
           name: "email",          type: "email",          placeholder: "Your Email",          required: true,
         },
-        {
-          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: true,
-        },
       ]}
       textarea={{
-        name: "message",        placeholder: "What car are you looking for?"}}
+        name: "message",        placeholder: "Anything specific on your mind?"}}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kqqm31"
-      imageAlt="car dealership front office"
+      imageAlt="cafe front"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBaseCard
-      logoText="Sri Hari Cars"
+      logoText="D K CAFE"
       columns={[
         {
-          title: "Company",          items: [
+          title: "Menu",          items: [
             {
-              label: "About Us",              href: "#about"},
+              label: "Drinks",              href: "#inventory"},
             {
-              label: "Careers",              href: "#"},
+              label: "Food",              href: "#inventory"},
           ],
         },
         {
@@ -226,13 +223,11 @@ export default function LandingPage() {
         {
           title: "Legal",          items: [
             {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms",              href: "#"},
+              label: "Privacy",              href: "#"},
           ],
         },
       ]}
-      copyrightText="© 2025 Sri Hari Cars. All rights reserved."
+      copyrightText="© 2025 D K CAFE. All rights reserved."
     />
   </div>
       </ReactLenis>

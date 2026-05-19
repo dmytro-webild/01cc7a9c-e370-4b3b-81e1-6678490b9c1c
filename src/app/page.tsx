@@ -53,9 +53,9 @@ export default function LandingPage() {
           text: "Explore Inventory",          href: "#inventory"},
       ]}
       mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw", imageAlt: "luxury car dealership interior showroom" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f", imageAlt: "family car parked on street" },
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9", imageAlt: "sporty hatchback car fast" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=1", imageAlt: "luxury car dealership interior showroom" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=1", imageAlt: "family car parked on street" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=1", imageAlt: "sporty hatchback car fast" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0mrpqb", imageAlt: "professional car inspection service" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rwqra8", imageAlt: "luxury interior car leather seats" },
       ]}
@@ -80,11 +80,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Certified Quality",          description: "Every car is inspected by expert technicians to guarantee peak performance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw",          imageAlt: "Certified inspection"},
+          title: "Certified Quality",          description: "Every car is inspected by expert technicians to guarantee peak performance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=2",          imageAlt: "Certified inspection"},
         {
-          title: "Fair Pricing",          description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f",          imageAlt: "Fair pricing"},
+          title: "Fair Pricing",          description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=2",          imageAlt: "Fair pricing"},
         {
-          title: "Easy Finance",          description: "Get quick loan approvals and flexible repayment options through our banking partners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9",          imageAlt: "Easy finance"},
+          title: "Easy Finance",          description: "Get quick loan approvals and flexible repayment options through our banking partners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=2",          imageAlt: "Easy finance"},
       ]}
       title="Why Choose Sri Hari?"
       description="Experience a transparent, hassle-free car buying journey."

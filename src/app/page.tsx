@@ -71,15 +71,15 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=1",
           imageAlt: "luxury car dealership interior showroom",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=1",
           imageAlt: "family car parked on street",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=1",
           imageAlt: "sporty hatchback car fast",
         },
         {
@@ -114,19 +114,19 @@ export default function LandingPage() {
         {
           title: "Certified Quality",
           description: "Every car is inspected by expert technicians to guarantee peak performance.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=2",
           imageAlt: "Certified inspection",
         },
         {
           title: "Fair Pricing",
           description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=2",
           imageAlt: "Fair pricing",
         },
         {
           title: "Easy Finance",
           description: "Get quick loan approvals and flexible repayment options through our banking partners.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=2",
           imageAlt: "Easy finance",
         },
       ]}

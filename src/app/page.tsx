@@ -31,65 +31,33 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",
-          id: "#hero",
-        },
-        {
-          name: "About",
-          id: "#about",
-        },
-        {
-          name: "Inventory",
-          id: "#inventory",
-        },
-        {
-          name: "Contact",
-          id: "#contact",
-        },
+        { name: "Home", id: "#hero" },
+        { name: "About", id: "#about" },
+        { name: "Inventory", id: "#inventory" },
+        { name: "Contact", id: "#contact" },
       ]}
       brandName="Sri Hari Cars"
       button={{
-        text: "View Inventory",
-        href: "#inventory",
-      }}
+        text: "View Inventory",        href: "#inventory"}}
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroBillboardGallery
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="Drive Your Dream Home"
       description="Sri Hari Cars brings you a curated selection of premium pre-owned vehicles. Reliability, quality, and service in every drive."
       buttons={[
         {
-          text: "Explore Inventory",
-          href: "#inventory",
-        },
+          text: "Explore Inventory",          href: "#inventory"},
       ]}
       mediaItems={[
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=1",
-          imageAlt: "luxury car dealership interior showroom",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=1",
-          imageAlt: "family car parked on street",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=1",
-          imageAlt: "sporty hatchback car fast",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0mrpqb",
-          imageAlt: "professional car inspection service",
-        },
-        {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rwqra8",
-          imageAlt: "luxury interior car leather seats",
-        },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw", imageAlt: "luxury car dealership interior showroom" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f", imageAlt: "family car parked on street" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9", imageAlt: "sporty hatchback car fast" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=0mrpqb", imageAlt: "professional car inspection service" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=rwqra8", imageAlt: "luxury interior car leather seats" },
       ]}
       mediaAnimation="blur-reveal"
     />
@@ -112,23 +80,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Certified Quality",
-          description: "Every car is inspected by expert technicians to guarantee peak performance.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw&_wi=2",
-          imageAlt: "Certified inspection",
-        },
+          title: "Certified Quality",          description: "Every car is inspected by expert technicians to guarantee peak performance.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=2vc1pw",          imageAlt: "Certified inspection"},
         {
-          title: "Fair Pricing",
-          description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f&_wi=2",
-          imageAlt: "Fair pricing",
-        },
+          title: "Fair Pricing",          description: "Transparent, competitive pricing with no hidden costs for complete buyer peace of mind.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=sf441f",          imageAlt: "Fair pricing"},
         {
-          title: "Easy Finance",
-          description: "Get quick loan approvals and flexible repayment options through our banking partners.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9&_wi=2",
-          imageAlt: "Easy finance",
-        },
+          title: "Easy Finance",          description: "Get quick loan approvals and flexible repayment options through our banking partners.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=4regq9",          imageAlt: "Easy finance"},
       ]}
       title="Why Choose Sri Hari?"
       description="Experience a transparent, hassle-free car buying journey."
@@ -139,53 +95,24 @@ export default function LandingPage() {
       <ProductCardTwo
       textboxLayout="default"
       gridVariant="three-columns-all-equal-width"
+      animationType="slide-up"
       useInvertedBackground={false}
       products={[
         {
-          id: "1",
-          brand: "Toyota",
-          name: "Fortuner",
-          price: "₹32,50,000",
-          rating: 5,
-          reviewCount: "12",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6kkkso",
-        },
+          id: "1",          brand: "Toyota",          name: "Fortuner",          price: "₹32,50,000",          rating: 5,
+          reviewCount: "12",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=6kkkso"},
         {
-          id: "2",
-          brand: "Hyundai",
-          name: "Creta",
-          price: "₹14,20,000",
-          rating: 5,
-          reviewCount: "8",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=54m74y",
-        },
+          id: "2",          brand: "Hyundai",          name: "Creta",          price: "₹14,20,000",          rating: 5,
+          reviewCount: "8",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=54m74y"},
         {
-          id: "3",
-          brand: "Maruti",
-          name: "Swift",
-          price: "₹6,50,000",
-          rating: 4,
-          reviewCount: "15",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=udyz69",
-        },
+          id: "3",          brand: "Maruti",          name: "Swift",          price: "₹6,50,000",          rating: 4,
+          reviewCount: "15",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=udyz69"},
         {
-          id: "4",
-          brand: "Kia",
-          name: "Seltos",
-          price: "₹15,80,000",
-          rating: 5,
-          reviewCount: "10",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nsqsal",
-        },
+          id: "4",          brand: "Kia",          name: "Seltos",          price: "₹15,80,000",          rating: 5,
+          reviewCount: "10",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=nsqsal"},
         {
-          id: "5",
-          brand: "Mahindra",
-          name: "XUV700",
-          price: "₹22,10,000",
-          rating: 5,
-          reviewCount: "22",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vygryv",
-        },
+          id: "5",          brand: "Mahindra",          name: "XUV700",          price: "₹22,10,000",          rating: 5,
+          reviewCount: "22",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=vygryv"},
       ]}
       title="Featured Collection"
       description="Our current selection of premium, pre-inspected vehicles."
@@ -199,26 +126,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "1",
-          value: "1000+",
-          title: "Cars Sold",
-          description: "Happy families on the road",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fbza7l",
-        },
+          id: "1",          value: "1000+",          title: "Cars Sold",          description: "Happy families on the road",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=fbza7l"},
         {
-          id: "2",
-          value: "20+",
-          title: "Years Experience",
-          description: "Serving the automotive community",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z2qpfe",
-        },
+          id: "2",          value: "20+",          title: "Years Experience",          description: "Serving the automotive community",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=z2qpfe"},
         {
-          id: "3",
-          value: "500+",
-          title: "Happy Clients",
-          description: "Reliable partnerships and trust",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=arl167",
-        },
+          id: "3",          value: "500+",          title: "Happy Clients",          description: "Reliable partnerships and trust",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=arl167"},
       ]}
       title="Our Impact"
       description="Delivering excellence one vehicle at a time."
@@ -231,20 +143,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",
-          title: "Do you provide car warranties?",
-          content: "Yes, we offer comprehensive warranties on select certified pre-owned vehicles.",
-        },
+          id: "1",          title: "Do you provide car warranties?",          content: "Yes, we offer comprehensive warranties on select certified pre-owned vehicles."},
         {
-          id: "2",
-          title: "Can I test drive a vehicle?",
-          content: "Absolutely! We encourage you to schedule a test drive at our showroom.",
-        },
+          id: "2",          title: "Can I test drive a vehicle?",          content: "Absolutely! We encourage you to schedule a test drive at our showroom."},
         {
-          id: "3",
-          title: "How is the valuation process?",
-          content: "Our experts evaluate vehicles based on age, mileage, condition, and market demand to offer you the best price.",
-        },
+          id: "3",          title: "How is the valuation process?",          content: "Our experts evaluate vehicles based on age, mileage, condition, and market demand to offer you the best price."},
       ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11helg"
       title="Common Questions"
@@ -262,25 +165,15 @@ export default function LandingPage() {
       author="Ankit R."
       avatars={[
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tnu6by",
-          alt: "happy customer portrait car",
-        },
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=tnu6by",          alt: "happy customer portrait car"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g5bl6c",
-          alt: "happy family car purchase",
-        },
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=g5bl6c",          alt: "happy family car purchase"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gk34q2",
-          alt: "happy young professional car",
-        },
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=gk34q2",          alt: "happy young professional car"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=m7j6uo",
-          alt: "happy couple car purchase",
-        },
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=m7j6uo",          alt: "happy couple car purchase"},
         {
-          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=06b0fu",
-          alt: "happy senior driver car",
-        },
+          src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=06b0fu",          alt: "happy senior driver car"},
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="blur-reveal"
@@ -294,28 +187,17 @@ export default function LandingPage() {
       description="Ready to book your test drive or sell your vehicle? Reach out to us."
       inputs={[
         {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-          required: true,
+          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
         },
         {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-          required: true,
+          name: "email",          type: "email",          placeholder: "Your Email",          required: true,
         },
         {
-          name: "phone",
-          type: "tel",
-          placeholder: "Phone Number",
-          required: true,
+          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: true,
         },
       ]}
       textarea={{
-        name: "message",
-        placeholder: "What car are you looking for?",
-      }}
+        name: "message",        placeholder: "What car are you looking for?"}}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=kqqm31"
       imageAlt="car dealership front office"
     />
@@ -326,42 +208,27 @@ export default function LandingPage() {
       logoText="Sri Hari Cars"
       columns={[
         {
-          title: "Company",
-          items: [
+          title: "Company",          items: [
             {
-              label: "About Us",
-              href: "#about",
-            },
+              label: "About Us",              href: "#about"},
             {
-              label: "Careers",
-              href: "#",
-            },
+              label: "Careers",              href: "#"},
           ],
         },
         {
-          title: "Support",
-          items: [
+          title: "Support",          items: [
             {
-              label: "FAQ",
-              href: "#faq",
-            },
+              label: "FAQ",              href: "#faq"},
             {
-              label: "Contact",
-              href: "#contact",
-            },
+              label: "Contact",              href: "#contact"},
           ],
         },
         {
-          title: "Legal",
-          items: [
+          title: "Legal",          items: [
             {
-              label: "Privacy Policy",
-              href: "#",
-            },
+              label: "Privacy Policy",              href: "#"},
             {
-              label: "Terms",
-              href: "#",
-            },
+              label: "Terms",              href: "#"},
           ],
         },
       ]}
